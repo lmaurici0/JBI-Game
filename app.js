@@ -25,7 +25,7 @@ const updateScore = () => {
   scoreElement.innerText = score;
 
   if (score >= 100 && score <= 250) {
-    game.style.backgroundImage = "url('img/night_bg')"; 
+    game.style.backgroundImage = "url('img/nigth_bg.png')"; 
     game.style.transition = "1s ease-in-out"
   }
   else{
