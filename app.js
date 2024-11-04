@@ -28,7 +28,7 @@ const updateScore = () => {
     game.style.backgroundImage = "url('img/nigth_bg.png')"; 
     game.style.transition = "1s ease-in-out"
   }
-  else if (score > 7){
+  else if (score > 500){
     alert("Parabéns ! Você ganhou seu prêmio, retire-o no balcão");
   }
   else{
