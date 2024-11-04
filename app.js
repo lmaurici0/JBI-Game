@@ -25,7 +25,7 @@ const updateScore = () => {
   scoreElement.innerText = score;
 
   if (score >= 100 && score <= 250) {
-    game.style.backgroundImage = "url('https://www.pixelstalk.net/wp-content/uploads/2016/07/8-Bit-Images-HD.png')"; 
+    game.style.backgroundImage = "url('img/night_bg')"; 
     game.style.transition = "1s ease-in-out"
   }
   else{
